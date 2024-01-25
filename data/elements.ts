@@ -9,7 +9,8 @@ export const mapping = {
 export const loggin = {
     log_in_field: '//input[@data-test="username"]',
     password_field: '//input[@data-test="password"]',
-    log_in_btn: '//input[@data-test="login-button"]'
+    log_in_btn: '//input[@data-test="login-button"]',
+    error_message: '//h3[@data-test="error"]'
 }
 
 export const checkout = {
@@ -19,4 +20,13 @@ export const checkout = {
     input_postCode: '//input[@data-test="postalCode"]',
     btn_continue: '//input[@data-test="continue"]',
     btn_finish: '//button[@data-test="finish"]'
+}
+
+export const login_users = {
+    standard_user: 'standard_user',
+    locked_out_user: 'locked_out_user',
+    performance_glitch_user: 'performance_glitch_user',
+    password: 'secret_sauce'
+
+
 }

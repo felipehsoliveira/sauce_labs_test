@@ -7,7 +7,7 @@ const authFile = 'playwright/.auth/user.json';
 
 setup('authenticate work', async ({ page }) => {
     let login_class: any = new Login(page);    
-    await login_class.login(elements.login_users.standard_user, elements.login_users.password, elements.mapping.url);
+    await login_class.login(elements.login_users.standard_user, elements.login_users.password, elements.mapping.url_login);
     await page.waitForURL('https://www.saucedemo.com/inventory.html');
     await page.context().storageState({path: authFile })
 })

@@ -2,7 +2,8 @@ export const mapping = {
     success_message: '//div[@id="checkout_complete_container"]//h2[@class="complete-header"]',
     item_add: '//button[@data-test="add-to-cart-sauce-labs-backpack"]',
     cart_btn: '//div[@id="shopping_cart_container"]//a',
-    url: "https://www.saucedemo.com/"
+    url_login: 'https://www.saucedemo.com/',
+    url_logged: 'https://www.saucedemo.com/inventory.html'
 
 }
 

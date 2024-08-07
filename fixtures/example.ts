@@ -10,7 +10,7 @@ export const test = base.extend<Fixture>({
     common: async ({ page }, use) => {
 
         const common = new Login(page);
-        await common.login("standard_user", "secret_sauce", elements.mapping.url);
+        await common.login("standard_user", "secret_sauce", elements.mapping.url_login);
         await use(common);
     }
 

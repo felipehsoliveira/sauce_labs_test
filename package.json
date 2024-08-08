@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretest": "tsc --noEmit && npx eslint tests/** --fix"  ,
+    "pretest": "tsc --noEmit && npx eslint tests/**"  ,
     "test": "playwright test"
   },
   "keywords": [],
